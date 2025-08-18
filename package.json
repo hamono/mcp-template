@@ -1,0 +1,19 @@
+{
+  "name": "auto-task-mcp",
+  "version": "1.0.0",
+  "description": "Auto Task MCP Server with HTTP support",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "keywords": ["mcp", "server", "http", "auto-task"],
+  "author": "",
+  "license": "MIT"
+}
